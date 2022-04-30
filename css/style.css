@@ -1,0 +1,23 @@
+body {
+    /*Fondo del index.html*/
+    background-color: #F3F5FC;
+}
+
+.espacioLogo{
+    /*Display especifica si un elemento es tratado como block or inline element y el diseño usado por sus hijos, como flow layout(Diseño de Flujo), grid(Cuadricula) o flex(Flexible). */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    /* Crear espacio alrededor del contenido de un elemento */
+    padding: 20px; 
+    width: auto;
+    height: auto;
+}
+
+#imagenLogo{
+    width: 30%; 
+    height: auto;
+}
+
+
