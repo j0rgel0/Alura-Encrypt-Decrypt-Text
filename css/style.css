@@ -1,18 +1,111 @@
 body {
-    /*Fondo del index.html*/
+    margin: 0;
+    padding: 0;
     background-color: #F3F5FC;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.espacioLogo{
-    /* Crear espacio alrededor del contenido de un elemento */
-    padding: 20px; 
-    width: auto;
-    height: auto;
-    position: relative;
+.contenedor{
     margin: 0px auto;
 }
 
-#imagenLogo{
-    width: 30%; 
+.contenedor li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo{
+    max-width: 100%;
     height: auto;
+}
+
+.box1 {
+    width: 8%;
+    text-align: center;
+    padding: 30px 5px;
+}
+
+.box2 {
+    width: 55%;
+    height: 700px;
+    padding: 30px 20px;
+}
+
+#contenidoBox2 img{
+    margin-left: 70px;
+}
+
+#ingresarTexto {
+    background-color: transparent;
+    margin-top: 90px;
+    margin-left: 65px;
+    width: 85%;
+    height: 80%;
+    border: none;
+    font-size: 20px;
+    color: #0A3871
+   }
+
+.box3 {
+    margin-top: 40px;
+    background-color: transparent;
+    width: 25%;
+    height: 700px;
+    text-align: center;
+    align-items: center;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+#resultadoTexto{
+    background-color: white;
+    margin-top: 50px;
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+}
+
+.mensajeNoEncontrado img{
+    margin-top: 40%;
+    text-align: center;
+    width: 80%;
+}
+
+h6 {
+    font-family: 'Inter';
+    display: inline-block;
+    font-size: 15px;
+}
+
+.cajaBotones{
+    text-align: center;
+}
+
+.botones{
+    width: 40%;
+    padding: 15px 0;
+    margin-top: 10px;
+    font-size: 18px;
+    color:white;
+    background: #0A3871;
+    border-radius: 20px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.botones:hover{
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+
+.negritas{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 15px;
+    font-weight: bold;
 }

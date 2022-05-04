@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="esp">
-    <head>
-        <meta charset="UTF-8">
-        <title>Encrypt-Decrypt-Text</title>
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body>
-        <header>
-            <div class="espacioLogo">
-                <img id="imagenLogo" src="images/logochallenge1.png" alt="logo">
-            </div>
-        </header>
-        <header>
-            <ul class="productos">
-                <li>
-                    <form>
-                        <!--<label for="ingresarTexto">Ingrese texto aquí</label>-->
-                        <input type="text" id="ingresarTexto" class="input-ingreseTexto" required placeholder="Ingrese texto aquí">
-                        <input type="text" id="resultadoTexto" class="input-resultadoTexto" required placeholder="Ingrese texto aquí">
-                        <input type="submit" value="Encriptar" class="encriptar">
-                        <input type="submit" value="Desencriptar" class="desencriptar">
-                    </form>
 
+<head>
+    <meta charset="UTF-8">
+    <title>Encrypt-Decrypt-Text</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <form>
+            <ul class="contenedor">
+                <li class="box1">
+                    <div>
+                        <img class="logo" src="images/logo.svg" alt="logo">
+                    </div>
                 </li>
-                <li>
-                    <h2>Ningún mensaje fue encontrado.</h2>
+                <li class="box2">
+                    <span id="contenidoBox2">
+                        <textarea type="text" id="ingresarTexto" required>Ingrese texto aquí</textarea>
+                        <img class="imagenArribaBotones" src="images/admiracion.svg" alt="símbolo de admiración">
+                        <h6>Solo letras minúsculas y sin acentos</h6>
+                    </span>
+
+                    <div class="cajaBotones">
+                        <input type="submit" value="Encriptar" class="botones">
+                        <input type="submit" value="Desencriptar" class="botones">
+                    </div>
                 </li>
 
-        </header>
-        <section>
-            
-        </section>
-        <footer>
-            <!-- Footer sin contenido -->
-        </footer>
-    </body>
+                <li class="box3">
+                    <!--<textarea type="text" id="resultadoTexto" required></textarea>-->
+                    <span class="mensajeNoEncontrado">
+                    <img class="imagenArribaBotones" src="images/Muñeco.svg" alt="símbolo de admiración">
+                    <p class="negritas">Ningún mensaje fue encontrado.</p>
+                    <h6>Ingresa el texto que desees encriptar o desencriptar</h6>
+                    </span>
+                </li>
+            </ul>
+        </form>
+    </main>
+</body>
+
 </html>
