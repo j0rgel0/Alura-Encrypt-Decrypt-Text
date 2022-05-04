@@ -29,17 +29,18 @@
 
                     <div class="cajaBotones">
                         <input type="submit" onclick="botonEncriptar()" value="Encriptar" class="botones">
-                        <input type="submit" onclick="botonDesencriptar()"value="Desencriptar" class="botones">
+                        <input type="submit" onclick="botonDesencriptar()" value="Desencriptar" class="botones">
                     </div>
                 </li>
 
                 <li class="box3">
                     <textarea type="text" id="resultadoTexto"></textarea>
-                    <!--<span class="mensajeNoEncontrado">
-                    <img class="imagenArribaBotones" src="images/Muñeco.svg" alt="símbolo de admiración">
-                    <p class="negritas">Ningún mensaje fue encontrado.</p>
-                    <h6>Ingresa el texto que desees encriptar o desencriptar</h6>
-                    </span>-->
+                    <input id="botonCopiar" type="submit" onclick="copiar()" value="Copiar" class="botones">
+                    <span id="mensajeNoEncontrado">
+                        <img class="imagenArribaBotones" src="images/Muñeco.svg" alt="símbolo de admiración">
+                        <p class="negritas">Ningún mensaje fue encontrado.</p>
+                        <h6>Ingresa el texto que desees encriptar o desencriptar</h6>
+                    </span>
                 </li>
             </ul>
         </form>
